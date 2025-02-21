@@ -1,0 +1,6 @@
+@GestionTI_HostAddress = http://localhost:5217
+
+GET {{GestionTI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
