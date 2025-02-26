@@ -8,10 +8,10 @@ namespace GestionTI.util.Conexion
 {
     public class Conexion
     {
-        private static string servidor = @"192.168.100.88\n";
+        private static string servidor = @"192.168.0.107";
         private static string base_tip = "GestionTi";
-        private static string usuario = "ak_global_WS_app";
-        private static string password = "ajfakdfsdierekk78$$";
+        private static string usuario = "sa";
+        private static string password = "1234";
         private static string clav_priv = "dfaeiriecmvjhe3943dfadahyeu3456";
         public static string CadenaConexion()
         {
