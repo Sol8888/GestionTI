@@ -48,14 +48,14 @@ namespace GestionTI.model.proc
                     string strCon = util.Conexion.Conexion.CadenaConexion();
 
                     string[] vector = new string[8];
-                    cb.sp = "sp_CrearUsuario";//poner el nombre correcto
+                    cb.sp = "dbo.sp_CrearUsuario";//poner el nombre correcto
                     vector[0] = "@us_nombre,v," + usuario.nombre;
                     vector[1] = "@us_apellido,v," + usuario.apellido;
                     vector[2] = "@us_email,v," + usuario.email;
                     vector[3] = "@us_rol,v," + usuario.rol;
                     vector[4] = "@us_cuenta,v," + usuario.cuenta;
                     vector[5] = "@us_contrasena,v," + usuario.contrasena;
-                    vector[6] = "@de_codig,i," + usuario.cod_departamento;
+                    vector[6] = "@de_codigo,i," + usuario.cod_departamento;
                     vector[7] = "@us_codi_crea,i," + usuario.cod_usua_creacion;
 
 

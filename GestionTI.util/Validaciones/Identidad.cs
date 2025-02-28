@@ -38,7 +38,7 @@ namespace GestionTI.util.Validaciones
                 }
 
                 string[] vector = new string[12];
-                cb.sp = "hola.procedure";
+                cb.sp = "holaprocedure";
                 vector[0] = "@app_fuente,v," + _registrolog[0];
                 vector[1] = "@app_version,v," + _registrolog[1];
                 vector[2] = "@para_1,v," + _registrolog[2];
