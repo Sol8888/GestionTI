@@ -8,7 +8,7 @@ namespace GestionTI.util.Conexion
 {
     public class Conexion
     {
-        private static string servidor = @"192.168.100.88";
+        private static string servidor = @"172.31.12.114";
         private static string base_tip = "GestionTi";
         private static string usuario = "sa";
         private static string password = "1234";
